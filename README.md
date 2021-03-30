@@ -92,7 +92,7 @@ All clusters
 * Deploy netdata
 * Change gitrepo cluster selector
 
-## Cleanup
+## Cleanup Time
 
 To remove everything
 
