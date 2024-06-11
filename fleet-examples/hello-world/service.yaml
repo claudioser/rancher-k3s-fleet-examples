@@ -4,9 +4,11 @@ metadata:
   name: hello-world
   namespace: default
 spec:
-  type: ClusterIP
+  type: NodePort
   selector:
     app: hello-world
   ports:
     - name: web
       port: 80
+      targetPort: web
+      nodePort: 30001
