@@ -12,3 +12,9 @@ spec:
       port: 80
       targetPort: web
       nodePort: 30003
+ingress:
+  annotations: {}
+  enabled: true
+  host: sslip.io
+  paths: []
+  tls: []
