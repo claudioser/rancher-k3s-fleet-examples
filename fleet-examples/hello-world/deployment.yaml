@@ -28,9 +28,9 @@ spec:
             httpGet:
               port: web
               path: /
-ingress:
-  annotations: {}
-  enabled: true
-  host: sslip.io
-  paths: []
-  tls: []
+      ingress:
+        annotations: {}
+        enabled: true
+        host: sslip.io
+        paths: []
+        tls: []
