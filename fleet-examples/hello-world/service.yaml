@@ -12,3 +12,7 @@ spec:
       port: 80
       targetPort: web
       nodePort: 30004
+ingress:
+    enabled: true
+    hostname: sslip.io
+    ingressClassName: nginx
